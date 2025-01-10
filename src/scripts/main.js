@@ -10,7 +10,6 @@ for (const input of inputs) {
   input.insertAdjacentHTML(
     'beforebegin',
     `<label class='field-label'>
-    ${input.placeholder}
-    </label>`,
+    ${input.placeholder}</label>`,
   );
 }
